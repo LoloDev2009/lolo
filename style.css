@@ -54,7 +54,7 @@ body {
 }
 
 .seccion {
-    margin: 20px;
+    margin: 1%;
     width: 75%;
     float: left;
     font-size: 17px;
@@ -75,12 +75,13 @@ time {
 }
 .columna {
     width: 20%;
-    height: 3000px;
+    height: 200px;
     float: left;
     border: 5px solid black;
     margin: 20px 0px ;
     background: #5c65c0;
 }
+
 
 .pie {
     clear: both;
@@ -94,7 +95,7 @@ img {
     width: 80px;
 }
 
-.boton{
+.boton, blockquote > a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -171,4 +172,9 @@ ul{
     font-family: Impact;
     font-size: 50px;
     text-align: left;
+}
+
+.columna > .titulo > a{
+    text-decoration: underline 5px black;
+    font-size: 25px;
 }
